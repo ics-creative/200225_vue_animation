@@ -43,7 +43,7 @@ export default {
   height: 80px;
   margin-left: -40px;
   box-sizing: border-box;
-  background: url(/img/BoxCat.svg) no-repeat center;
+  background: url(../../public/img/BoxCat.svg) no-repeat center;
   transform-origin: 50% 100%;
 }
 </style>

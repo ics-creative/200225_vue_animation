@@ -10,7 +10,7 @@ import AnimBox from './AnimBox'
 import BodyPart from './charaParts/BodyPart'
 import LegPart from './charaParts/LegPart'
 export default {
-  name: 'MyCharactor',
+  name: 'MyChara',
   components: { AnimBox, BodyPart, LegPart },
   props: {
   },
@@ -48,9 +48,3 @@ export default {
   }
 }
 </script>
-
-<style lang="scss" scoped>
-.refrect{
-  background-size: -100% 100%;
-}
-</style>

@@ -10,7 +10,7 @@
         rotate(${transforms.r}deg)
         scale(${transforms.sx}, ${transforms.sy})`,
       transformOrigin: `${ox}% ${oy}%`,
-      transition: `transform ${duration}ms ${easing}`
+      transition: `transform ${duration}ms ${delay}ms ${easing}`
     }"
   >
     <slot />
@@ -30,7 +30,8 @@ export default {
     sx: { type: Number, default: 1 },
     sy: { type: Number, default: 1 },
     ox: { type: Number, default: 50 },
-    oy: { type: Number, default: 50 }
+    oy: { type: Number, default: 50 },
+    delay: { type: Number, default: 0 }
   },
   data () {
     return {

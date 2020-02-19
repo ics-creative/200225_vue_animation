@@ -51,7 +51,7 @@ export default {
   },
   mounted () {
     this.next()
-    window.setInterval(() => { this.next() }, 2000) // 2秒ごとに新しい波形を作る
+    window.setInterval(this.next, 2000) // 2秒ごとに新しい波形を作る
   }
 }
 </script>

@@ -8,7 +8,7 @@
 </template>
 
 <script>
-// 指定のミリ秒待つPromise
+/** 指定のミリ秒待つPromiseを返す */
 const wait = (ms) => new Promise(resolve => setTimeout(resolve, ms))
 
 export default {

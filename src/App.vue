@@ -107,12 +107,17 @@ export default {
 </script>
 
 <style scoped>
+.body {
+  padding: 10px;
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+}
 .stage {
   position: relative;
   width: 100%;
   height: 350px;
   border: 1px solid #aaa;
   background-color: rgb(248, 248, 247);
+  overflow: hidden;
 }
 .note {
   color: #888;
